@@ -37,6 +37,17 @@
     transform: rotate(360deg);
   }
 }
-/* .navbar{
-  font-weight: 500 !important;
-} */
+img{
+  height: 600px;
+  width: 500px !important;
+  border-radius: 15px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #0a5285;
+  opacity: 1 !important;
+  border-radius: 5px;
+}
+.carousel{
+  border-radius: 15px;
+  width: 80%;
+}
