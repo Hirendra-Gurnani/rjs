@@ -1,5 +1,4 @@
 import React from "react";
-// document.querySelector("h1").style.color = "red";
 function Greet(props) {
   return (
     <>
@@ -7,5 +6,4 @@ function Greet(props) {
     </>
   );
 }
-// console.log(document.querySelector("h1").style.color);
 export default Greet;
