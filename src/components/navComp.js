@@ -23,7 +23,7 @@ class Navcomp extends Component {
         disStyle: "nav-item ms-4 btn btn-light",
         rootColor: (document.querySelector("body").style.backgroundColor =
           "#333"),
-        // fCol: (document.querySelector("h1").style.color = "white"),
+        fCol: (document.querySelector("body").style.color = "white"),
       });
     } else {
       this.setState({
@@ -34,7 +34,7 @@ class Navcomp extends Component {
         disStyle: "nav-item ms-4 btn btn-dark",
         rootColor: (document.querySelector("body").style.backgroundColor =
           "#c7e8ff"),
-        // fCol: (document.querySelector("h1").style.color = "black"),
+        fCol: (document.querySelector("body").style.color = "black"),
       });
     }
   }
@@ -45,9 +45,9 @@ class Navcomp extends Component {
         <nav className={this.state.disDL} style={this.state.navStyle}>
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              Hematite
+            Welcome to Hematite
             </a>
-            <div className="mx-auto">
+            {/* <div className="mx-auto"> */}
               <button
                 className="navbar-toggler"
                 type="button"
@@ -60,7 +60,7 @@ class Navcomp extends Component {
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div
-                className="collapse ms-n3 navbar-collapse"
+                className="collapse navbar-collapse"
                 id="navbarNavDropdown"
               >
                 <ul className="navbar-nav">
@@ -68,16 +68,19 @@ class Navcomp extends Component {
                     <a className="nav-link active" aria-current="page" href="#">
                       Home
                     </a>
+                    <hr />
                   </li>
                   <li className="nav-item">
                     <a className="nav-link active" href="#">
                       About Us
                     </a>
+                    <hr />
                   </li>
                   <li className="nav-item">
                     <a className="nav-link active" href="#">
                       Courses
                     </a>
+                    <hr />
                   </li>
                   <li className="nav-item dropdown">
                     <a
@@ -90,6 +93,7 @@ class Navcomp extends Component {
                     >
                       Services
                     </a>
+                    <hr />
                     <ul
                       className="dropdown-menu"
                       aria-labelledby="navbarDropdownMenuLink"
@@ -115,11 +119,13 @@ class Navcomp extends Component {
                     <a className="nav-link active" href="#">
                       Contact
                     </a>
+                    <hr />
                   </li>
                   <li className="nav-item">
                     <a className="nav-link active" href="#">
                       Batches
                     </a>
+                    <hr />
                   </li>
                   <li className="nav-item">
                     <button
@@ -133,7 +139,7 @@ class Navcomp extends Component {
                 </ul>
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </nav>
       </>
     );

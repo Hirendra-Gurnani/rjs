@@ -1,9 +1,12 @@
 import React from "react";
-function Greet(props) {
+
+const Greet = (props) => {
   return (
     <>
-      <div className="text-center"><h1>Hello {props.name}</h1></div>
+      <div className="text-center">
+        <h1>Welcome {props.name} {props.sname}</h1>
+      </div>
     </>
   );
-}
+};
 export default Greet;
