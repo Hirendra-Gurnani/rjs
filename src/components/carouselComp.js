@@ -11,15 +11,15 @@ class CarouselComp extends Component {
           className="carousel slide mt-5"
           data-bs-ride="carousel"
         >
-          <div className="carousel-inner d-flex justify-content-around">
+          <div className="carousel-inner d-flex">
             <div className="carousel-item active">
-              <img src={img1} className="w-50" alt="..." />
+              <img src={img1} className="w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={img2} className="w-50" alt="..." />
+              <img src={img2} className="w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={img3} className="w-50" alt="..." />
+              <img src={img3} className="w-100" alt="..." />
             </div>
           </div>
           <button

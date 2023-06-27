@@ -40,3 +40,4 @@ const UpdatedComp = (OriginalComp, incrementNum) => {
 };
 
 export default UpdatedComp;
+//Get an element from array and show it on log

@@ -3,7 +3,7 @@ import UpdatedComp from "./withCounter";
 
 class HoverCounterComp extends Component {
   render() {
-    const {count, incrementCount, decrementCount} = this.props
+    const { count, incrementCount, decrementCount } = this.props;
     return (
       <div
         className="d-flex align-items-center justify-content-center mx-auto w-50"
@@ -28,6 +28,5 @@ class HoverCounterComp extends Component {
     );
   }
 }
-
 
 export default UpdatedComp(HoverCounterComp, 10);
